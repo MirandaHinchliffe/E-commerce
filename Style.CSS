@@ -1,0 +1,128 @@
+/* CSS Document */
+body{
+    background-color:   #e0d08d;
+  }
+  img.pic{
+    width: 800px;
+    height: 600px;
+    float: auto;
+    margin: 30px;
+    border: 10px;
+    border-radius: 50px;
+   padding: 25px;
+  }
+  * {
+    padding: 0.2px;
+    margin:0px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:#000000;
+  }
+  /*NAV BAR*/
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #198a0a;
+    position: sticky;
+    top: 0;
+  }
+  .main_shopping{
+    padding: 100px;
+  }
+  .ec-cart-widget{
+    color: rgb(255, 255, 255);
+    float: left;
+  }
+  #my-search-37845077{
+    float: center;
+    padding-left: 80px;
+  }
+  li { 
+  float :left;
+  }
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 212px;
+    text-decoration: none;
+  }
+  .pad{
+    padding-left: 500px;
+    padding-right: 500px;
+  }
+  li a:hover {
+    background-color: #f0a81e;
+  }
+  /*Header*/
+  img{
+    width: 100px;
+  }
+  .jumbotron {
+    background-image: url("Plant1.jpg");
+    height: 450px;
+    width:1950px;
+ 
+    text-align: center;
+    padding-top: 100px;
+    background-size: cover;
+    background-position: center;
+  }
+  h1{
+      color: rgb(255, 255, 255);
+      font-size: 80px;
+  }
+  h2{
+    font-size: 50px;
+    text-align: center;
+  }
+  p{
+    text-align: center;
+    font-size: 30px;
+    padding: 10px;
+    padding-left: 500px;
+    padding-right: 500px;
+  }
+  .con{
+    font-size: 20px;
+  }
+  .email{
+    font-size: 15px;
+    padding-top: 0.1px;
+  }
+  .foot{
+    padding-top: 100px;
+    text-align: center;
+  }
+  /*Footer*/
+  .mainFooter {
+    text-align: left;
+    height: 30px;
+    padding-top: 15px;
+    padding-left: 15px;
+  }
+
+  /*Media, screen size*/
+
+  @media only screen and (max-width: 1200px) {
+    .jumbotron h1 {
+      font-size: 150px;
+      line-height: 200px;
+    }
+  }
+  
+  @media only screen and (max-width: 900px) {
+    .jumbotron h1 {
+      font-size: 100px;
+      line-height: 200px;
+    }
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .jumbotron h1 {
+      font-size: 75px;
+      line-height: 200px;
+    }
+  }
+  
